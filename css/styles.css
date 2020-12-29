@@ -1,0 +1,101 @@
+body{
+    
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    color: #F8EFD4;
+    background-color: #132743;
+}
+.top-container{
+    background-color: #D7385E;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    
+}
+.middle-container{
+    padding: 80px;
+}
+.bottom-container{
+    background-color: #D7385E;
+    padding: 40px;
+    padding-top: 40px;
+    
+}
+.bottom-cloud{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    height: 200px;
+}
+.boy{
+    position: absolute;
+    right: 200px;
+    
+    height: 400px;
+    
+    bottom: 0px;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /* 16px = 100% = 1 em = 1 rem */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #F8EFD4;
+}
+
+h2{
+    color: #F8EFD4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+h3{
+    color: #EDC988 ;
+    
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #EDC988 ;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.my-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.skill{
+    width: 25%;
+    border-radius: 10px;
+}
+.odd{ /*odd numberth skill img*/
+    float: left;
+    margin-right: 30px;
+}
+.even{  /*even numberth skill img*/
+    float: right;
+    margin-left: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 150px auto 0px;
+    text-align: left;
+}
+hr{
+    border: 0px dotted white ;
+    width: 10%;
+    border-top: dotted #d2d4d4 7px;
+}
+.copyright{
+    margin-bottom: 0;
+    color: #EAF6F6;
+}
+.btn{
+    background-color:  #D7385E ;
+    color: #F8EFD4;
+    border-radius: 10px;
+    padding: 10px;
+}
