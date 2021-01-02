@@ -1,101 +1,126 @@
-body{
-    
-    text-align: center;
+
+/* general styling */
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  line-height: 2;
+  color: #f8efd4;
+  background-color: #132743;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #edc988;
+}
+h2 {
+  font-size: 3rem;
+}
+hr {
+  border: 0px dotted white;
+  width: 10%;
+  border-top: dotted #d2d4d4 7px;
+}
+p {
+  color: #8f8f8f;
+  font-size: 1.25rem;
+}
+.button {
+  background-color: #d7385e;
+  color: #f8efd4;
+  border-radius: 10px;
+  padding: 10px;
+}
+.button:hover {
+  background-color: #be2246;
+  border-radius: 10px;
+  color: #f8efd4;
+  text-decoration: none;
+}
+
+/* specific styling */
+.navbar {
+  padding: 0.5rem 1.25rem;
+  text-align: right;
+  background-color: #d7385e;
+}
+.nav-item {
+  margin: 0 1.5rem;
+}
+
+.section-1 {
+  padding: 7rem 15rem 0;
+  background-color: #d7385e;
+  text-align: center;
+}
+.main-heading {
+  font-family: "Sacramento", cursive;
+  font-size: 7.625rem;
+  font-weight: 700;
+}
+.boy {
+  height: 25rem;
+}
+.section-2 {
+  padding: 7rem 15rem;
+  text-align: center;
+}
+.my-pic {
+  border-radius: 100%;
+  height: 240px;
+  margin: 0 0 3rem;
+}
+.section-3 {
+  padding: 7rem 15rem;
+  text-align: center;
+}
+.skill-pic {
+  border-radius: 10px;
+  height: 240px;
+}
+.col-lg-6 {
+  margin: 50px 0;
+  padding: 2rem;
+}
+.odd-skill {
+  text-align: left;
+}
+.even-skill {
+  text-align: right;
+}
+.section-4 {
+  padding: 7rem 15rem;
+  text-align: center;
+}
+.section-5 {
+  padding: 3rem 15rem 0;
+  background-color: #d7385e;
+  text-align: center;
+}
+.copy-right {
     margin: 0;
-    font-family: 'Merriweather', serif;
-    line-height: 2;
-    color: #F8EFD4;
-    background-color: #132743;
-}
-.top-container{
-    background-color: #D7385E;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    position: relative;
-    
-}
-.middle-container{
-    padding: 80px;
-}
-.bottom-container{
-    background-color: #D7385E;
-    padding: 40px;
-    padding-top: 40px;
-    
-}
-.bottom-cloud{
-    position: absolute;
-    right: 200px;
-    top: 50px;
-    height: 200px;
-}
-.boy{
-    position: absolute;
-    right: 200px;
-    
-    height: 400px;
-    
-    bottom: 0px;
-}
-h1{
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem; /* 16px = 100% = 1 em = 1 rem */
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #F8EFD4;
-}
-
-h2{
-    color: #F8EFD4;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 2.5rem;
-}
-h3{
-    color: #EDC988 ;
-    
-}
-a{
-    font-family: 'Montserrat', sans-serif;
-    color: #EDC988 ;
-    text-decoration: none;
-    padding: 40px;
-}
-
-.my-pic{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-}
-.skill{
-    width: 25%;
-    border-radius: 10px;
-}
-.odd{ /*odd numberth skill img*/
-    float: left;
-    margin-right: 30px;
-}
-.even{  /*even numberth skill img*/
-    float: right;
-    margin-left: 30px;
-}
-.skill-row{
-    width: 50%;
-    margin: 150px auto 0px;
-    text-align: left;
-}
-hr{
-    border: 0px dotted white ;
-    width: 10%;
-    border-top: dotted #d2d4d4 7px;
-}
-.copyright{
-    margin-bottom: 0;
     color: #EAF6F6;
+    padding: 40px 0 ;
 }
-.btn{
-    background-color:  #D7385E ;
-    color: #F8EFD4;
-    border-radius: 10px;
-    padding: 10px;
+/* media query */
+@media (max-width: 992px){
+    .section-1, .section-2, .section-3, .section-4, .section-5 {
+        padding: 7rem 0;
+        text-align: center;
+      }
+      .section-1 {
+        padding-bottom: 0;
+      }
+      .odd-skill,.even-skill {
+        text-align: center;
+      }
+      .skill-pic {
+        height: 160px;
+      }
+      .col-lg-6 {
+        margin: 10px 0;
+        padding: 1rem 2rem;
+      }
 }
