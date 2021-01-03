@@ -90,6 +90,9 @@ p {
 .even-skill {
   text-align: right;
 }
+.inactive{
+  display: none;
+}
 .section-4 {
   padding: 7rem 15rem;
   text-align: center;
@@ -122,5 +125,11 @@ p {
       .col-lg-6 {
         margin: 10px 0;
         padding: 1rem 2rem;
+      }
+      .active{
+        display: none;
+      }
+      .inactive{
+        display: block;
       }
 }
