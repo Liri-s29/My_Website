@@ -1,2 +1,2 @@
 # My_Website
-(liri.study)[here]
+[here](liri.study)
