@@ -1,2 +1,2 @@
 # My_Website
-<a href="liri.study"> here </a>
+(liri.study)[here]
