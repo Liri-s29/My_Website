@@ -1,2 +1,2 @@
 # My_Website
-[here](liri.study)
+[here](http://liri.study/)
